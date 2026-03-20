@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const navLinks = [
-  { href: "/intro", label: "협회 소개" },
+  { href: "/intro", label: "협의회 소개" },
   { href: "/kids", label: "영유아 프로그램" },
   { href: "/multi", label: "다문화 지원" },
   { href: "/notice", label: "공지사항" },

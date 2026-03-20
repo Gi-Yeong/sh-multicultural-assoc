@@ -7,7 +7,7 @@ import type { NoticeCategory } from "@/types/notice";
 
 export const metadata: Metadata = {
   title: "공지사항",
-  description: "시흥시 영유아다문화 협회의 공지사항, 모집공고, 행사 안내를 확인하세요.",
+  description: "시흥시 영유아다문화 협의회의 공지사항, 모집공고, 행사 안내를 확인하세요.",
 };
 
 const CATEGORIES: (NoticeCategory | "전체")[] = ["전체", "공지사항", "모집공고", "행사안내"];
@@ -22,7 +22,7 @@ export default async function NoticePage() {
     <>
       <PageHero
         title="공지사항"
-        description="협회의 최신 소식과 프로그램 모집 공고를 안내합니다."
+        description="협의회의 최신 소식과 프로그램 모집 공고를 안내합니다."
         breadcrumb={[{ label: "공지사항" }]}
       />
 

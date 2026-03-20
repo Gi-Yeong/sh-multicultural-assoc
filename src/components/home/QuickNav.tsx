@@ -26,7 +26,7 @@ const items = [
   {
     href: "/notice",
     title: "공지사항",
-    desc: "모집공고·행사·협회 소식",
+    desc: "모집공고·행사·협의회 소식",
     color: "text-amber-600 bg-amber-50",
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

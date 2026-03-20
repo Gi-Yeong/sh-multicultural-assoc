@@ -14,14 +14,14 @@ const notoSansKR = Noto_Sans_KR({
 export const metadata: Metadata = {
   metadataBase: new URL("https://example.github.io/sh-multicultural-assoc"),
   title: {
-    template: "%s | 시흥시 영유아다문화 협회",
-    default: "시흥시 영유아다문화 협회",
+    template: "%s | 시흥시 영유아다문화 협의회",
+    default: "시흥시 영유아다문화 협의회",
   },
   description:
-    "시흥시 영유아다문화 협회는 다문화 가정의 영유아(0~7세)와 부모를 위한 언어·문화·정서 지원 프로그램을 운영하는 비영리 민간 협회입니다.",
+    "시흥시 영유아다문화 협의회는 다문화 가정의 영유아(0~7세)와 부모를 위한 언어·문화·정서 지원 프로그램을 운영하는 비영리 민간 협의회입니다.",
   keywords: ["다문화", "영유아", "시흥시", "한국어교육", "다문화가족", "영유아프로그램"],
   openGraph: {
-    siteName: "시흥시 영유아다문화 협회",
+    siteName: "시흥시 영유아다문화 협의회",
     locale: "ko_KR",
     type: "website",
   },
@@ -55,7 +55,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "NGO",
-              name: "시흥시 영유아다문화 협회",
+              name: "시흥시 영유아다문화 협의회",
               alternateName: "Siheung City Infant and Toddler Multicultural Association",
               url: "https://example.github.io/sh-multicultural-assoc",
               telephone: "031-XXX-XXXX",

@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import MobileMenu from "./MobileMenu";
 
 const navLinks = [
-  { href: "/intro", label: "협회 소개" },
+  { href: "/intro", label: "협의회 소개" },
   { href: "/kids", label: "영유아 프로그램" },
   { href: "/multi", label: "다문화 지원" },
   { href: "/notice", label: "공지사항" },
@@ -29,7 +29,7 @@ export default function Header() {
       {/* Top bar */}
       <div className="hidden lg:block bg-neutral-900 text-neutral-300 text-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-2">
-          <span>시흥시 영유아다문화 협회에 오신 것을 환영합니다</span>
+          <span>시흥시 영유아다문화 협의회에 오신 것을 환영합니다</span>
           <div className="flex items-center gap-6">
             <a href="tel:031-XXX-XXXX" className="hover:text-white transition-colors flex items-center gap-1.5">
               <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -61,7 +61,7 @@ export default function Header() {
             <Link
               href="/"
               className="flex items-center gap-3 flex-shrink-0"
-              aria-label="시흥시 영유아다문화 협회 홈으로"
+              aria-label="시흥시 영유아다문화 협의회 홈으로"
             >
               <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center flex-shrink-0">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -69,7 +69,7 @@ export default function Header() {
                 </svg>
               </div>
               <div className="leading-tight">
-                <div className="font-bold text-neutral-900 text-sm lg:text-base">시흥시 영유아다문화 협회</div>
+                <div className="font-bold text-neutral-900 text-sm lg:text-base">시흥시 영유아다문화 협의회</div>
                 <div className="text-xs text-neutral-500 hidden sm:block">Siheung Multicultural Association</div>
               </div>
             </Link>

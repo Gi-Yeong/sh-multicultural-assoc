@@ -3,7 +3,7 @@ import PageHero from "@/components/ui/PageHero";
 
 export const metadata: Metadata = {
   title: "문의하기",
-  description: "시흥시 영유아다문화 협회 오시는 길과 문의 방법을 안내합니다.",
+  description: "시흥시 영유아다문화 협의회 오시는 길과 문의 방법을 안내합니다.",
 };
 
 const contactInfo = [
@@ -77,7 +77,7 @@ const transit = [
 ];
 
 export default function ContactPage() {
-  const mailtoHref = "mailto:info@shmc.or.kr?subject=[문의] 시흥시 영유아다문화 협회";
+  const mailtoHref = "mailto:info@shmc.or.kr?subject=[문의] 시흥시 영유아다문화 협의회";
 
   return (
     <>
@@ -259,7 +259,7 @@ export default function ContactPage() {
                 <div className="text-3xl">💬</div>
                 <div>
                   <div className="font-semibold text-neutral-900 text-sm">카카오톡으로 편하게 문의하세요</div>
-                  <div className="text-xs text-neutral-500 mt-0.5">카카오톡 채널: 시흥시영유아다문화협회</div>
+                  <div className="text-xs text-neutral-500 mt-0.5">카카오톡 채널: 시흥시영유아다문화협의회</div>
                 </div>
               </div>
             </div>

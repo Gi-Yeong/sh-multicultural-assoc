@@ -3,9 +3,9 @@ import PageHero from "@/components/ui/PageHero";
 import SectionHeader from "@/components/ui/SectionHeader";
 
 export const metadata: Metadata = {
-  title: "협회 소개",
+  title: "협의회 소개",
   description:
-    "시흥시 영유아다문화 협회의 설립 목적, 미션/비전, 연혁, 조직도를 소개합니다.",
+    "시흥시 영유아다문화 협의회의 설립 목적, 미션/비전, 연혁, 조직도를 소개합니다.",
 };
 
 const coreValues = [
@@ -32,7 +32,7 @@ const coreValues = [
 ];
 
 const history = [
-  { year: "2018", month: "03", event: "시흥시 영유아다문화 협회 설립 및 시흥시 등록 (고유번호 134-82-XXXXX)" },
+  { year: "2018", month: "03", event: "시흥시 영유아다문화 협의회 설립 및 시흥시 등록 (고유번호 134-82-XXXXX)" },
   { year: "2018", month: "09", event: "첫 한국어 교육 프로그램 개설 (수강생 18가정)" },
   { year: "2019", month: "06", event: "시흥시 우수 비영리단체 선정" },
   { year: "2020", month: "03", event: "코로나19 대응 온라인 프로그램 전환 운영" },
@@ -59,9 +59,9 @@ export default function IntroPage() {
   return (
     <>
       <PageHero
-        title="협회 소개"
-        description="다문화 가정의 영유아와 부모를 위해 2018년부터 함께해온 시흥시 영유아다문화 협회를 소개합니다."
-        breadcrumb={[{ label: "협회 소개" }]}
+        title="협의회 소개"
+        description="다문화 가정의 영유아와 부모를 위해 2018년부터 함께해온 시흥시 영유아다문화 협의회를 소개합니다."
+        breadcrumb={[{ label: "협의회 소개" }]}
       />
 
       {/* Mission / Vision */}
@@ -144,7 +144,7 @@ export default function IntroPage() {
       {/* Org chart */}
       <section className="py-20 lg:py-24 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeader eyebrow="조직도" title="협회 조직 구성" className="mb-14" />
+          <SectionHeader eyebrow="조직도" title="협의회 조직 구성" className="mb-14" />
           <div className="bg-neutral-50 rounded-3xl p-8 border border-neutral-100">
             <div className="space-y-3">
               {/* 총회 */}
@@ -193,7 +193,7 @@ export default function IntroPage() {
           <h3 className="text-xl font-bold text-neutral-900 mb-6">규정 및 자료</h3>
           <div className="grid sm:grid-cols-2 gap-4">
             {[
-              { name: "협회 운영 규정", file: "/docs/협회운영규정.md" },
+              { name: "협의회 운영 규정", file: "/docs/협의회운영규정.md" },
               { name: "프로그램 운영 매뉴얼", file: "/docs/프로그램운영매뉴얼.md" },
             ].map((doc) => (
               <a

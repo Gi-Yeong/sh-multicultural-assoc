@@ -23,7 +23,7 @@ export default function HeroBanner() {
             <span className="text-yellow-300">자라는 시흥시</span>
           </h1>
           <p className="text-lg lg:text-xl text-white/85 leading-relaxed mb-8 max-w-lg">
-            시흥시 영유아다문화 협회가 다문화 가정의 영유아와 부모 곁에서 함께합니다.
+            시흥시 영유아다문화 협의회가 다문화 가정의 영유아와 부모 곁에서 함께합니다.
             언어·문화·정서 지원 프로그램으로 모든 아이의 건강한 성장을 돕습니다.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
@@ -40,7 +40,7 @@ export default function HeroBanner() {
               href="/intro"
               className="inline-flex items-center justify-center gap-2 border-2 border-white/60 text-white font-semibold px-6 py-3.5 rounded-full hover:bg-white/10 hover:border-white transition-colors"
             >
-              협회 소개
+              협의회 소개
             </Link>
           </div>
         </div>

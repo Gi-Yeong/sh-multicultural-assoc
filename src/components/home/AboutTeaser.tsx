@@ -14,13 +14,13 @@ export default function AboutTeaser() {
           {/* Text */}
           <div>
             <p className="text-sm font-semibold text-primary uppercase tracking-wide mb-3">
-              협회 소개
+              협의회 소개
             </p>
             <h2 className="text-3xl lg:text-4xl font-bold text-neutral-900 mb-6 leading-tight">
               다문화 가정과 함께<br />성장하는 시흥시
             </h2>
             <p className="text-lg text-neutral-600 leading-relaxed mb-6">
-              시흥시 영유아다문화 협회는 2018년 설립된 비영리 민간 협회로,
+              시흥시 영유아다문화 협의회는 2018년 설립된 비영리 민간 협의회로,
               다문화 가정의 영유아(0~7세) 아동과 그 부모를 위한
               언어·문화·정서 지원 프로그램을 운영합니다.
             </p>
@@ -43,7 +43,7 @@ export default function AboutTeaser() {
               href="/intro"
               className="inline-flex items-center gap-2 text-primary font-semibold hover:underline"
             >
-              협회 소개 더보기
+              협의회 소개 더보기
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>

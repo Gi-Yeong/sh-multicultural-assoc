@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const quickLinks = [
-  { href: "/intro", label: "협회 소개" },
+  { href: "/intro", label: "협의회 소개" },
   { href: "/kids", label: "영유아 프로그램" },
   { href: "/multi", label: "다문화 지원" },
   { href: "/notice", label: "공지사항" },
@@ -22,7 +22,7 @@ export default function Footer() {
                 </svg>
               </div>
               <div>
-                <div className="font-bold text-white text-sm">시흥시 영유아다문화 협회</div>
+                <div className="font-bold text-white text-sm">시흥시 영유아다문화 협의회</div>
                 <div className="text-xs text-neutral-400">Siheung Multicultural Association</div>
               </div>
             </div>
@@ -88,7 +88,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-neutral-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-neutral-500">
-          <span>© 2025 시흥시 영유아다문화 협회. All rights reserved.</span>
+          <span>© 2025 시흥시 영유아다문화 협의회. All rights reserved.</span>
           <div className="flex gap-4">
             <Link href="/privacy" className="hover:text-neutral-300 transition-colors">개인정보처리방침</Link>
             <Link href="/sitemap.xml" className="hover:text-neutral-300 transition-colors">사이트맵</Link>
