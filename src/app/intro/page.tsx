@@ -5,7 +5,7 @@ import SectionHeader from "@/components/ui/SectionHeader";
 export const metadata: Metadata = {
   title: "협의회 소개",
   description:
-    "시흥시 영유아다문화 협의회의 설립 목적, 미션/비전, 연혁, 조직도를 소개합니다.",
+    "시흥시 영유아다문화교육협의회의 설립 목적, 미션/비전, 연혁, 조직도를 소개합니다.",
 };
 
 const coreValues = [
@@ -32,15 +32,11 @@ const coreValues = [
 ];
 
 const history = [
-  { year: "2018", month: "03", event: "시흥시 영유아다문화 협의회 설립 및 시흥시 등록 (고유번호 134-82-XXXXX)" },
-  { year: "2018", month: "09", event: "첫 한국어 교육 프로그램 개설 (수강생 18가정)" },
-  { year: "2019", month: "06", event: "시흥시 우수 비영리단체 선정" },
-  { year: "2020", month: "03", event: "코로나19 대응 온라인 프로그램 전환 운영" },
-  { year: "2021", month: "04", event: "영유아 발달 지원 프로그램 신설" },
-  { year: "2022", month: "03", event: "경기도교육청 인가 다문화 교육 기관 등록" },
-  { year: "2023", month: "09", event: "제5회 정기총회 개최, 신임 회장 선출" },
-  { year: "2024", month: "03", event: "영유아 방문 지원 서비스 시범 사업 시작" },
-  { year: "2025", month: "03", event: "2025년 상반기 프로그램 12개 운영 개시" },
+  { year: "2008", month: "03", event: "시흥시 시립어린이집 18개 기관이 참여해 영유아다문화교육협의회 설립" },
+  { year: "2008", month: "~", event: "다문화 가정 영유아 교육 연구 및 프로그램 개발 사업 본격 시작" },
+  { year: "2020", month: "~", event: "비대면 환경 대응 온라인 교육 프로그램 도입" },
+  { year: "2025", month: "~", event: "참여 기관 23개로 확대 — 시흥시 시립어린이집 소속 원장·교사들로 구성" },
+  { year: "2025", month: "09", event: "풀무원푸드머스와 '다문화 영유아 올바른 식습관 형성' 업무협약(MOU) 체결" },
 ];
 
 const orgStructure = [
@@ -60,7 +56,7 @@ export default function IntroPage() {
     <>
       <PageHero
         title="협의회 소개"
-        description="다문화 가정의 영유아와 부모를 위해 2018년부터 함께해온 시흥시 영유아다문화 협의회를 소개합니다."
+        description="2008년 시흥시 시립어린이집 18개 기관이 모여 설립한 영유아다문화교육협의회. 다문화 가정 아이들의 건강한 성장을 위해 함께합니다."
         breadcrumb={[{ label: "협의회 소개" }]}
       />
 
@@ -82,8 +78,8 @@ export default function IntroPage() {
               </div>
               <h3 className="text-xl font-bold text-neutral-900 mb-3">미션</h3>
               <p className="text-neutral-700 leading-relaxed">
-                다문화 가정의 영유아가 건강하고 행복하게 성장할 수 있는 환경을 만들며,
-                문화적 다양성을 존중하는 시흥시를 만들어 갑니다.
+                시흥시 시립어린이집 23개 기관이 함께 다문화 가정의 영유아를 위한 교육 연구와 프로그램을 개발하고,
+                아이들이 건강하고 행복하게 성장할 수 있는 환경을 만들어 갑니다.
               </p>
             </div>
             <div className="bg-secondary-light rounded-3xl p-8 border border-secondary/10">
@@ -154,7 +150,7 @@ export default function IntroPage() {
               <div className="flex justify-center"><div className="w-0.5 h-4 bg-neutral-300" /></div>
               {/* 이사회 */}
               <div className="flex justify-center">
-                <div className="bg-primary-dark text-white px-6 py-2.5 rounded-xl font-semibold text-sm">이사회 (이사 15인)</div>
+                <div className="bg-primary-dark text-white px-6 py-2.5 rounded-xl font-semibold text-sm">23개 참여 기관 원장·교사단</div>
               </div>
               <div className="flex justify-center"><div className="w-0.5 h-4 bg-neutral-300" /></div>
               {/* 회장 */}

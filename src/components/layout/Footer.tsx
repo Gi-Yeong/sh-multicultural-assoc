@@ -4,6 +4,7 @@ const quickLinks = [
   { href: "/intro", label: "협의회 소개" },
   { href: "/kids", label: "영유아 프로그램" },
   { href: "/multi", label: "다문화 지원" },
+  { href: "/news", label: "언론보도" },
   { href: "/notice", label: "공지사항" },
   { href: "/contact", label: "문의하기" },
 ];
