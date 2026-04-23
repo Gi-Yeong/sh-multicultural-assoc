@@ -9,7 +9,7 @@ interface ProgramsPreviewProps {
 
 export default function ProgramsPreview({ programs }: ProgramsPreviewProps) {
   return (
-    <section className="py-20 lg:py-24 bg-white">
+    <section className="py-20 lg:py-24 bg-primary-soft">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow="주요 프로그램"
@@ -23,10 +23,10 @@ export default function ProgramsPreview({ programs }: ProgramsPreviewProps) {
             <Link
               key={program.slug}
               href={`/kids/${program.slug}`}
-              className="group bg-white rounded-2xl border border-neutral-100 hover:border-primary/20 hover:shadow-xl transition-all overflow-hidden"
+              className="group bg-white rounded-2xl border border-primary/10 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5 hover:-translate-y-0.5 transition-all overflow-hidden"
             >
               {/* Color bar */}
-              <div className="h-2 bg-gradient-to-r from-primary to-primary-dark" />
+              <div className="h-1.5 bg-gradient-to-r from-primary via-primary-dark to-secondary" />
               <div className="p-6">
                 <div className="flex items-start justify-between gap-3 mb-3">
                   <Badge label={program.category} />

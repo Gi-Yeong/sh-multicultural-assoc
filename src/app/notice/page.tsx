@@ -7,7 +7,7 @@ import type { NoticeCategory } from "@/types/notice";
 
 export const metadata: Metadata = {
   title: "공지사항",
-  description: "시흥시 영유아다문화 협의회의 공지사항, 모집공고, 행사 안내를 확인하세요.",
+  description: "시흥시 영유아다문화교육협의회의 공지사항, 모집공고, 행사 안내를 확인하세요.",
 };
 
 const CATEGORIES: (NoticeCategory | "전체")[] = ["전체", "공지사항", "모집공고", "행사안내"];

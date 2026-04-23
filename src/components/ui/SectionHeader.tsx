@@ -18,11 +18,11 @@ export default function SectionHeader({
   return (
     <div className={`${alignClass} ${className}`}>
       {eyebrow && (
-        <p className="text-sm font-semibold text-primary uppercase tracking-wide mb-2">
+        <p className="text-xs font-bold text-primary uppercase tracking-[0.15em] mb-3">
           {eyebrow}
         </p>
       )}
-      <h2 className="text-3xl lg:text-4xl font-bold text-neutral-900 mb-4">
+      <h2 className="text-3xl lg:text-4xl font-bold text-primary-darker mb-4">
         {title}
       </h2>
       {description && (

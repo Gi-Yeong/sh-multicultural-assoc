@@ -14,14 +14,14 @@ const notoSansKR = Noto_Sans_KR({
 export const metadata: Metadata = {
   metadataBase: new URL("https://example.github.io/sh-multicultural-assoc"),
   title: {
-    template: "%s | 시흥시 영유아다문화 협의회",
-    default: "시흥시 영유아다문화 협의회",
+    template: "%s | 시흥시 영유아다문화교육협의회",
+    default: "시흥시 영유아다문화교육협의회",
   },
   description:
-    "시흥시 영유아다문화 협의회는 다문화 가정의 영유아(0~7세)와 부모를 위한 언어·문화·정서 지원 프로그램을 운영하는 비영리 민간 협의회입니다.",
-  keywords: ["다문화", "영유아", "시흥시", "한국어교육", "다문화가족", "영유아프로그램"],
+    "시흥시 영유아다문화교육협의회는 다문화 가정의 영유아(0~7세)와 부모를 위한 언어·문화·정서 지원 프로그램을 운영하는 비영리 협의회입니다.",
+  keywords: ["다문화", "영유아", "시흥시", "한국어교육", "다문화가족", "영유아프로그램", "영유아다문화교육협의회"],
   openGraph: {
-    siteName: "시흥시 영유아다문화 협의회",
+    siteName: "시흥시 영유아다문화교육협의회",
     locale: "ko_KR",
     type: "website",
   },
@@ -38,7 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko" className={notoSansKR.variable}>
-      <body className="min-h-screen flex flex-col" style={{ fontFamily: "var(--font-noto-sans-kr), 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" }}>
+      <body className="min-h-screen flex flex-col bg-white" style={{ fontFamily: "var(--font-noto-sans-kr), 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" }}>
         {/* Skip navigation for accessibility */}
         <a
           href="#main-content"
@@ -55,18 +55,22 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "NGO",
-              name: "시흥시 영유아다문화 협의회",
-              alternateName: "Siheung City Infant and Toddler Multicultural Association",
+              name: "시흥시 영유아다문화교육협의회",
+              alternateName: "Siheung Infant & Toddler Multicultural Education Council",
               url: "https://example.github.io/sh-multicultural-assoc",
-              telephone: "031-XXX-XXXX",
-              email: "info@shmc.or.kr",
+              telephone: "+82-10-2740-2798",
+              faxNumber: "+82-31-8056-9810",
+              email: "eucai@naver.com",
+              founder: "이경채",
               address: {
                 "@type": "PostalAddress",
+                streetAddress: "도일로 112번길 12",
                 addressLocality: "시흥시",
                 addressRegion: "경기도",
+                postalCode: "15069",
                 addressCountry: "KR",
               },
-              foundingDate: "2018",
+              foundingDate: "2008",
             }),
           }}
         />

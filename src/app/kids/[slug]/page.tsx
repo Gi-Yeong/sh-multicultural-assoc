@@ -118,7 +118,7 @@ export default async function KidsProgramDetailPage({ params }: Props) {
 
               {/* CTA */}
               <a
-                href={`mailto:info@shmc.or.kr?subject=[신청] ${program.title}`}
+                href={`mailto:eucai@naver.com?subject=[신청] ${program.title}`}
                 className={`block w-full text-center font-semibold py-3.5 rounded-xl transition-colors ${
                   program.status === "모집중"
                     ? "bg-primary text-white hover:bg-primary-dark"

@@ -30,7 +30,7 @@ export default async function NoticeDetailPage({ params }: Props) {
 
   return (
     <>
-      <div className="bg-gradient-to-br from-neutral-800 to-neutral-900 text-white py-14 lg:py-18">
+      <div className="bg-gradient-to-br from-primary via-primary-dark to-primary-darker text-white py-14 lg:py-18">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumb
             items={[
@@ -90,7 +90,7 @@ export default async function NoticeDetailPage({ params }: Props) {
               목록으로
             </Link>
             <a
-              href="mailto:info@shmc.or.kr"
+              href="mailto:eucai@naver.com"
               className="inline-flex items-center gap-2 text-sm text-primary hover:underline"
             >
               문의하기

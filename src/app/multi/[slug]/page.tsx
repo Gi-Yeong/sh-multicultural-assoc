@@ -91,7 +91,7 @@ export default async function MultiProgramDetailPage({ params }: Props) {
                 </dl>
               </div>
               <a
-                href={`mailto:info@shmc.or.kr?subject=[상담신청] ${program.title}`}
+                href={`mailto:eucai@naver.com?subject=[상담신청] ${program.title}`}
                 className="block w-full text-center bg-secondary text-white font-semibold py-3.5 rounded-xl hover:bg-secondary-dark transition-colors"
               >
                 이메일로 상담 신청

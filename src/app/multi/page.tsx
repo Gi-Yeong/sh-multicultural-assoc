@@ -73,13 +73,13 @@ export default async function MultiPage() {
             가정폭력, 경제 위기, 체류 문제 등 급박한 상황에서는 즉시 연락해 주세요.
           </p>
           <a
-            href="tel:031-XXX-XXXX"
+            href="tel:010-2740-2798"
             className="inline-flex items-center gap-2 bg-red-500 text-white font-bold px-8 py-4 rounded-full hover:bg-red-600 transition-colors text-lg shadow-lg"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
             </svg>
-            031-XXX-XXXX 긴급 연락
+            010-2740-2798 긴급 연락
           </a>
         </div>
       </section>

@@ -12,7 +12,7 @@ export default function LatestNotices({ notices }: LatestNoticesProps) {
   const list = notices.filter((n) => !n.pinned).slice(0, 5);
 
   return (
-    <section className="py-20 lg:py-24 bg-neutral-50">
+    <section className="py-20 lg:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow="공지사항"
@@ -22,7 +22,7 @@ export default function LatestNotices({ notices }: LatestNoticesProps) {
 
         <div className="grid lg:grid-cols-3 gap-6">
           {/* Notice list */}
-          <div className="lg:col-span-2 bg-white rounded-2xl border border-neutral-100 overflow-hidden">
+          <div className="lg:col-span-2 bg-white rounded-2xl border border-neutral-200 overflow-hidden shadow-sm">
             <ul className="divide-y divide-neutral-100">
               {list.map((notice) => (
                 <li key={notice.id}>
@@ -59,7 +59,7 @@ export default function LatestNotices({ notices }: LatestNoticesProps) {
 
           {/* Pinned banner */}
           {pinned && (
-            <div className="bg-gradient-to-br from-primary to-primary-dark rounded-2xl p-6 text-white flex flex-col justify-between">
+            <div className="bg-gradient-to-br from-primary via-primary-dark to-primary-darker rounded-2xl p-6 text-white flex flex-col justify-between shadow-xl shadow-primary/10">
               <div>
                 <div className="flex items-center gap-2 mb-4">
                   <span className="text-lg">📌</span>
